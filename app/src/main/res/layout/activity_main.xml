@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="encrypt_decrypt.coderzheaven.com.encryptdecryptandroid.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="[ Tap the buttons in order for the demo ]"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="left|center"
+        android:onClick="onClick"
+        android:text="1. Download Audio" />
+
+    <Button
+        android:id="@+id/encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="left|center"
+        android:onClick="onClick"
+        android:text="2. Encrypt Audio" />
+
+    <Button
+        android:id="@+id/decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="left|center"
+        android:onClick="onClick"
+        android:text="3. Decrypt Audio" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="left|center"
+        android:onClick="onClick"
+        android:text="4. Play" />
+
+    <TextView
+        android:id="@+id/statusTv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="coderzheaven.com" />
+
+</LinearLayout>
